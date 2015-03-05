@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: #181818;
+}
+
+table {
+  border-color: #181818;
+  border-collapse: collapse;
+  border: 1px;
+  border-radius: 20px;
+}
+
+th {
+  background-color: #181818;
+  color: white;
+}
+
+td {
+  padding: 5px;
+}
+
+tr {
+  background-color: white;
+}
+
+a {
+  color: skyblue;
+}
