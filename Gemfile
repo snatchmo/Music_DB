@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'thin'
 
 group :development, :test do
+  gem 'awesome_print'
 
   gem 'quiet_assets'
 
