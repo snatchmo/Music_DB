@@ -2,7 +2,5 @@ class Artist < ActiveRecord::Base
   belongs_to :genre
   has_many :songs
 
-  # validates :genre_id, presence: true
-  validates :name, presence: true
-
+  validates :name, length: {minimum: 3}, presence: true, uniqueness: true
 end
