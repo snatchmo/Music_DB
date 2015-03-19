@@ -16,7 +16,7 @@
     <% @songs.each do |song| %>
       <tr>
         <td><%= song.name %></td>
-        <td><%= song.video %></td>
+        <td><%= link_to 'Video', song.video, :target => "_blank" %></td>
         <td><%= song.artist.name %></td>
         <td><%= link_to 'Show', song %></td>
         <td><%= link_to 'Edit', edit_song_path(song) %></td>
